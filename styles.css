@@ -20,6 +20,7 @@
   --serif: "Cormorant Garamond", "Times New Roman", serif;
   --serif-title: "Playfair Display", "Bodoni Moda", "Cormorant Garamond", Georgia, serif;
   --sans: "Manrope", system-ui, -apple-system, sans-serif;
+  --sans-bold: "Plus Jakarta Sans", "Manrope", system-ui, sans-serif;
 
   --pad: clamp(1.25rem, 12vw, 17rem);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -343,28 +344,32 @@ body.is-loaded .line-inner {
 }
 .section__head--light { border-color: var(--line-light); }
 .section__title {
-  font-family: var(--sans);
+  font-family: var(--sans-bold);
   font-weight: 800;
-  font-size: clamp(1.85rem, 3.8vw, 3rem);
-  letter-spacing: 0.06em;
+  -webkit-text-stroke: 0.5px currentColor;
+  text-stroke: 0.5px currentColor;
+  font-size: clamp(1.4rem, 2.7vw, 2.2rem);
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--cream-dark);
-  opacity: 0.55;
+  opacity: 0.44;
   margin: 0;
   line-height: 1;
 }
 .section__head--light .section__title {
   color: var(--sand);
-  opacity: 0.52;
+  opacity: 0.40;
 }
 .section__title--sub {
-  font-family: var(--sans);
-  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  font-family: var(--sans-bold);
+  font-size: clamp(1.1rem, 1.8vw, 1.45rem);
   letter-spacing: 0.05em;
   font-weight: 800;
+  -webkit-text-stroke: 0.4px currentColor;
+  text-stroke: 0.4px currentColor;
   text-transform: uppercase;
   color: var(--cream-dark);
-  opacity: 0.55;
+  opacity: 0.44;
 }
 .section__hint {
   font-size: 0.74rem;
