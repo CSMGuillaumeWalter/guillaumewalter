@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guillaume Walter · Direction artistique 360°</title>
+  <meta name="description" content="Guillaume Walter, directeur artistique à Strasbourg. Identité de marque, UX/UI design et sites web pour les marques, restaurants et commerces." />
+  <meta name="theme-color" content="#0E1726" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <meta property="og:title" content="Guillaume Walter · Direction artistique 360°" />
+  <meta property="og:description" content="Identité de marque, UX/UI design et sites web à Strasbourg." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://guillaumewalter.fr/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=32" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo" aria-label="Guillaume Walter, retour en haut">
+      <span class="monogram">G<span>W</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#approche">Approche</a>
+      <a href="#expertises">Expertises</a>
+      <a href="#projets">Projets</a>
+      <a href="#offres">Offres</a>
+      <a href="#contact" class="nav__cta"><span>Contact</span></a>
+    </nav>
+    <button class="nav__burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="assets/hero-sphere-ivory.png?v=8" alt="" class="hero__sphere" />
+      </div>
+      <div class="hero__top">
+        <p class="eyebrow reveal">Strasbourg · Direction artistique 360°</p>
+        <h1 class="hero__title">
+          <span class="line-mask"><span class="line-inner">Des marques</span></span>
+          <span class="line-mask"><span class="line-inner"><em>qui se ressentent</em></span></span>
+          <span class="line-mask"><span class="line-inner">avant de se lire.</span></span>
+        </h1>
+      </div>
+
+      <div class="hero__foot reveal">
+        <p class="hero__intro">
+          Enchanté, moi c'est Guillaume Walter, directeur artistique. J'imagine des identités visuelles,
+          des supports d'édition et des sites web sur mesure qui s'adaptent à l'ADN de chaque projet,
+          de l'univers le plus sobre au plus audacieux.
+        </p>
+        <a href="#expertises" class="btn btn--outline"><span>Découvrir mon travail</span> <i aria-hidden="true">→</i></a>
+      </div>
+    </section>
+
+    <!-- ===== Approche ===== -->
+    <section class="section approach" id="approche">
+      <div class="section__head">
+        <h2 class="section__title">Philosophie</h2>
+      </div>
+      <div class="approach__asym">
+        <div class="approach__lead reveal">
+          <p class="approach__quote">
+            Chaque projet a son propre caractère. Mon rôle n'est pas d'imposer un style figé,
+            mais de façonner l'univers visuel, l'édition ou le site web qui vous ressemble vraiment
+            et qui marque durablement vos publics.
+          </p>
+        </div>
+
+        <div class="approach__pillars">
+          <div class="pillar reveal">
+            <div class="pillar__header">
+              <span class="pillar__n">I</span>
+              <h3>Comprendre</h3>
+            </div>
+            <p>Votre histoire, vos clients, ce qui vous rend unique. La forme vient toujours après le sens.</p>
+          </div>
+          <div class="pillar reveal">
+            <div class="pillar__header">
+              <span class="pillar__n">II</span>
+              <h3>Concevoir</h3>
+            </div>
+            <p>Une direction claire : identité, typographie, couleurs, édition et parcours utilisateur.</p>
+          </div>
+          <div class="pillar reveal">
+            <div class="pillar__header">
+              <span class="pillar__n">III</span>
+              <h3>Livrer</h3>
+            </div>
+            <p>Des supports finis et cohérents, du print haute définition au site en ligne, prêts à servir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Expertises ===== -->
+    <section class="section section--compact expertise" id="expertises">
+      <div class="section__head">
+        <h2 class="section__title">Expertises</h2>
+        <span class="section__hint">Survolez pour explorer des aperçus</span>
+      </div>
+      <div class="expertise__grid">
+        <article class="exp-card is-active reveal" data-exp="1" tabindex="0" onmouseenter="window.activateExpertise && window.activateExpertise('1')" onclick="window.activateExpertise && window.activateExpertise('1')">
+          <h3 class="exp-card__title">Identité &amp; Édition</h3>
+          <p class="exp-card__desc">Direction artistique, chartes graphiques, catalogues et books print.</p>
+          <span class="exp-card__tags">Branding · Charte · Print</span>
+        </article>
+        <article class="exp-card reveal" data-exp="2" tabindex="0" onmouseenter="window.activateExpertise && window.activateExpertise('2')" onclick="window.activateExpertise && window.activateExpertise('2')">
+          <h3 class="exp-card__title">UX / UI Design</h3>
+          <p class="exp-card__desc">Conception d'interfaces claires, maquettes interactives et parcours fluides.</p>
+          <span class="exp-card__tags">Maquettes · Parcours · Design System</span>
+        </article>
+        <article class="exp-card reveal" data-exp="3" tabindex="0" onmouseenter="window.activateExpertise && window.activateExpertise('3')" onclick="window.activateExpertise && window.activateExpertise('3')">
+          <h3 class="exp-card__title">Sites web sur mesure</h3>
+          <p class="exp-card__desc">Sites rapides et responsives avec Panel Admin personnalisé pour tout gérer simplement.</p>
+          <span class="exp-card__tags">Développement · Réservation · Panel Admin</span>
+        </article>
+        <article class="exp-card reveal" data-exp="4" tabindex="0" onmouseenter="window.activateExpertise && window.activateExpertise('4')" onclick="window.activateExpertise && window.activateExpertise('4')">
+          <h3 class="exp-card__title">Contenus &amp; Visuels</h3>
+          <p class="exp-card__desc">Mise en valeur visuelle, prise de vue, motion design et supports sociaux.</p>
+          <span class="exp-card__tags">Direction photo · Motion · Social</span>
+        </article>
+      </div>
+
+      <!-- Grille d'aperçus dynamique liée au survol de chaque expertise -->
+      <div class="expertise__showcase reveal">
+        <!-- Panel 01 : Identité & Édition -->
+        <div class="exp-panel is-active" data-panel="1">
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-1a.jpg?v=11" alt="Collection de Books thématiques CSM Ingredients" /></div>
+            <figcaption><strong>Collection Books Thématiques · CSM</strong><span>Direction artistique &amp; édition d'une série de livrets recettes</span></figcaption>
+          </figure>
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-1b.jpg?v=11" alt="Enseigne et identité visuelle Compagnie Belladonna" /></div>
+            <figcaption><strong>Cie. Belladonna · Identité &amp; Enseigne</strong><span>Création du logotype et déclinaison signalétique de la compagnie</span></figcaption>
+          </figure>
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-1c.jpg?v=11" alt="Mockup carte et menus midi restaurant Sensaeï" /></div>
+            <figcaption><strong>Sensaeï · Carte &amp; Menus Midi</strong><span>Création des supports de table et déclinaisons print</span></figcaption>
+          </figure>
+        </div>
+
+        <!-- Panel 02 : UX / UI Design -->
+        <div class="exp-panel" data-panel="2">
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-2a.jpg?v=11" alt="Portail de contact CSM étape 1 qualification visuelle" loading="lazy" /></div>
+            <figcaption><strong>Portail Contact · Qualification Visuelle</strong><span>Parcours utilisateur guidé par cartes visuelles (CSM Ingredients)</span></figcaption>
+          </figure>
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-2b.jpg?v=11" alt="Modale de réservation en direct Le Carné" loading="lazy" /></div>
+            <figcaption><strong>Modale de Réservation · Le Carné</strong><span>Interface de réservation de table intégrée sans redirection externe</span></figcaption>
+          </figure>
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-2c.jpg?v=12" alt="Penser pour le client en premier, philosophie ergonomique" loading="lazy" /></div>
+            <figcaption><strong>Penser pour le client en premier</strong><span>Hiérarchie visuelle, clarté des choix et parcours sans friction</span></figcaption>
+          </figure>
+        </div>
+
+        <!-- Panel 03 : Sites web sur mesure -->
+        <div class="exp-panel" data-panel="3">
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-3a.jpg?v=11" alt="Page La Carte et version mobile du site Le Carné Strasbourg" loading="lazy" /></div>
+            <figcaption><strong>Le Carné · Site &amp; Version Mobile</strong><span>Présentation éditoriale de la carte sur ordinateur et smartphone</span></figcaption>
+          </figure>
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-3b.jpg?v=11" alt="Portail web et Carte de France interactive CSM Ingredients" loading="lazy" /></div>
+            <figcaption><strong>CSM · Portail &amp; Carte Interactive</strong><span>Développement sur mesure avec recherche géographique par code postal</span></figcaption>
+          </figure>
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-3c.jpg?v=11" alt="Portail espace administrateur Le Carné" loading="lazy" /></div>
+            <figcaption><strong>Panel Admin Personnalisé</strong><span>Accès sécurisé permettant au gérant de piloter son site en toute autonomie</span></figcaption>
+          </figure>
+        </div>
+
+        <!-- Panel 04 : Contenus & Visuels -->
+        <div class="exp-panel" data-panel="4">
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-4a.jpg?v=11" alt="Affiche promotionnelle et QR Code Sensaeï" loading="lazy" /></div>
+            <figcaption><strong>Sensaeï · Affiche Promo &amp; QR Code</strong><span>Campagne d'affichage et passerelle vers la commande en ligne</span></figcaption>
+          </figure>
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-4b.jpg?v=11" alt="Illustration technique coupe pâtisserie Nocciola" loading="lazy" /></div>
+            <figcaption><strong>Illustrations Techniques · Pâtisserie</strong><span>Schémas de coupe et valorisation des textures produits</span></figcaption>
+          </figure>
+          <figure class="exp-thumb">
+            <div class="exp-thumb__img"><img src="assets/expertises/exp-4c.jpg?v=11" alt="Photographie culinaire restaurant Sensaeï" loading="lazy" /></div>
+            <figcaption><strong>Photographie Culinaire · Restauration</strong><span>Prise de vue et mise en scène pour cartes et réseaux sociaux</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projets ===== -->
+    <section class="section projects" id="projets">
+      <div class="section__head">
+        <h2 class="section__title">Réalisations</h2>
+      </div>
+
+      <div class="projects__grid">
+        <!-- 1. LE CARNÉ (Grand format) -->
+        <article class="card card--wide reveal-media">
+          <a href="https://www.xn--lecarn-gva.fr" target="_blank" rel="noopener" class="card__link">
+            <div class="card__visual tone-night">
+              <img src="assets/projets/le-carne.jpg" alt="Le Carné, steakhouse et viandes maturées à Strasbourg" data-parallax />
+              <span class="card__badge">Voir le site ↗</span>
+            </div>
+            <div class="card__meta">
+              <div>
+                <span class="card__tag">Restauration · Strasbourg</span>
+                <h3>Le Carné</h3>
+              </div>
+              <p>Direction artistique, site sur mesure, réservations (+200 couverts/mois) et back-office dédié</p>
+            </div>
+          </a>
+        </article>
+
+        <!-- 2. SENSAEÏ (Demi-largeur) -->
+        <article class="card reveal-media">
+          <div class="card__visual tone-night">
+            <img src="assets/projets/sensaei.png" alt="Sensaeï, restaurant asiatique" data-parallax />
+          </div>
+          <div class="card__meta">
+            <div>
+              <span class="card__tag">Restauration · Identité globale</span>
+              <h3>Sensaeï</h3>
+            </div>
+            <p>Branding, enseigne, supports print et visuels de commande</p>
+          </div>
+        </article>
+
+        <!-- 3. CIE BELLADONNA / APALVA (Demi-largeur) -->
+        <article class="card reveal-media">
+          <div class="card__visual tone-cream">
+            <img src="assets/projets/belladonna.png" alt="Compagnie Belladonna APALVA, programme de saison" data-parallax />
+          </div>
+          <div class="card__meta">
+            <div>
+              <span class="card__tag">Culture &amp; Spectacle</span>
+              <h3>Cie Belladonna · APALVA</h3>
+            </div>
+            <p>Identité visuelle et édition du livret de saison théâtrale</p>
+          </div>
+        </article>
+
+        <!-- 4. CSM BOOK NOËL (Grand format) -->
+        <article class="card card--wide reveal-media">
+          <a href="https://cdn.qr-code-generator.com/account2046301/58525556_1.pdf?Expires=1794565630&amp;Signature=YLfjuZivxtnmWzUc35ly4ngKLFhIGx3tLB7jNF-00cBTWuiJnofgW48npuSyMXyOwwknwbvG2f6krqjhf18DzQWyMWF6VnI-YgUPeL1YSg~tGh45AHu9prU2HfKeis4BjfyI3b~vgIut9H9js4~jP-e~BwqfNSuss-F0FthIO4m7cp0CfVzX7vFsOtuIttqs2o3Ko8GtWS~qoifLP2iPxvUboG2AWlhfcN8KOjeVyREsS6O~6LE2~dgeuqSlnMRRIiZLRwryZphEXyba1AuoyKfBYdQ8XrM1C4Jw3EZljQFW9Reb6xL4wjeE5qooxr5-k6nxs4cN9ZF0TXI0eOxXrA__&amp;Key-Pair-Id=KPNI74OVB7CJI" target="_blank" rel="noopener" class="card__link">
+            <div class="card__visual tone-sand">
+              <img src="assets/projets/csm-book-noel-mockup.jpg" alt="CSM Ingrédients, Book Noël Signature D'Ombre et de Lumière" data-parallax />
+              <span class="card__badge">Consulter le Book PDF ↗</span>
+            </div>
+            <div class="card__meta">
+              <div>
+                <span class="card__tag">Édition &amp; Direction artistique · CSM Ingredients</span>
+                <h3>Book Noël « D'Ombre &amp; de Lumière »</h3>
+              </div>
+              <p>Conception éditoriale, direction artistique et mise en page de la collection signature Bûches</p>
+            </div>
+          </a>
+        </article>
+      </div>
+
+      <!-- Sous-section Projets personnels -->
+      <div class="personal">
+        <div class="personal__head reveal">
+          <h3 class="section__title section__title--sub">Projets personnels</h3>
+          <p class="personal__sub">Explorations graphiques, univers musicaux, gaming et concepts d'identité.</p>
+        </div>
+
+        <div class="personal__grid">
+          <article class="p-card reveal-media">
+            <div class="p-card__visual tone-ink">
+              <img src="assets/projets/kesna-eclipse2.jpg" alt="Kesna, pochette vinyle Eclipse II" />
+            </div>
+            <div class="p-card__meta">
+              <span class="p-card__category">Musique · Direction artistique</span>
+              <h4>Kesna · Eclipse II</h4>
+              <p>Identité visuelle d'artiste et conception de pochette vinyle</p>
+            </div>
+          </article>
+
+          <article class="p-card reveal">
+            <div class="p-card__visual p-card__visual--typo tone-night">
+              <span class="p-card__monogram">B&amp;D</span>
+              <span class="p-card__caption">UX / UI · Web App</span>
+            </div>
+            <div class="p-card__meta">
+              <span class="p-card__category">Outil communautaire · UX/UI</span>
+              <h4>Build and Darker</h4>
+              <p>Conception UX/UI d'un configurateur interactif de builds et statistiques</p>
+            </div>
+          </article>
+
+          <article class="p-card reveal">
+            <div class="p-card__visual p-card__visual--typo tone-sand">
+              <span class="p-card__monogram">KES</span>
+              <span class="p-card__caption">Logo &amp; Branding original</span>
+            </div>
+            <div class="p-card__meta">
+              <span class="p-card__category">Création de contenu · Identité</span>
+              <h4>Kes Gaming</h4>
+              <p>Création de l'identité visuelle, logo sur mesure et déclinaison merchandising</p>
+            </div>
+          </article>
+
+          <article class="p-card reveal">
+            <div class="p-card__visual p-card__visual--typo tone-stone">
+              <span class="p-card__monogram">R·C</span>
+              <span class="p-card__caption">Branding · Mascottes</span>
+            </div>
+            <div class="p-card__meta">
+              <span class="p-card__category">Concept Food Truck · Identité Rock</span>
+              <h4>Clash of Burgers</h4>
+              <p>Univers de marque où chaque recette incarne une icône rock (Beatles, AC/DC, Nirvana)</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Offres & Solutions ===== -->
+    <section class="section offer" id="offres">
+      <div class="section__head section__head--light">
+        <h2 class="section__title">Offres &amp; Solutions</h2>
+      </div>
+      <div class="offer__inner">
+        <h2 class="offer__title reveal">Une présence en ligne<br /><em>qui vous appartient vraiment.</em></h2>
+        <p class="offer__text reveal">
+          Restaurants, marques, salons, artisans : je conçois votre site sur mesure, connecté à vos services existants,
+          avec un <strong>Panel Admin personnalisé ultra-simple sur téléphone</strong> pour tout gérer au même endroit
+          et modifier une carte, un visuel ou un horaire en 10 secondes, sans abonnement imposé.
+        </p>
+        <div class="offer__proof reveal">
+          <div class="offer__proof-metric">
+            <span class="offer__stat">+200</span>
+            <span class="offer__unit">couverts<br />réservés / mois</span>
+          </div>
+          <div class="offer__proof-body">
+            <div class="offer__proof-head">
+              <span class="offer__proof-tag">Résultat client · Strasbourg</span>
+              <a href="https://www.xn--lecarn-gva.fr" target="_blank" rel="noopener" class="offer__proof-brand" aria-label="Voir le site Le Carné">
+                <img src="assets/logo-le-carne.png" alt="Logo Le Carné" />
+              </a>
+            </div>
+            <p class="offer__stat-label">
+              Réservations générées en direct chaque mois via le site conçu sur mesure pour le restaurant <strong>Le Carné</strong>, pilotées au quotidien depuis son Panel Admin personnalisé.
+            </p>
+          </div>
+        </div>
+        <div class="offer__cards">
+          <!-- 1. SITE WEB -->
+          <div class="offer__card reveal">
+            <p class="offer__label">01 · Création du site web</p>
+            <p class="offer__price">dès 400 €</p>
+            <p class="offer__note">Base vitrine complète · Options selon vos besoins</p>
+            <ul>
+              <li>Design personnalisé, mobile &amp; référencement local</li>
+              <li>
+                Option Panel Admin personnalisé <strong>(+150 €)</strong>
+                <small class="offer__sub">Textes, carte, tarifs, photos et horaires modifiables en 10s</small>
+              </li>
+              <li>
+                Option Réservations &amp; Connexions <strong>(+100 €)</strong>
+                <small class="offer__sub">Module de réservation direct, Planity, Octotable, Google…</small>
+              </li>
+              <li>Mise en ligne clé en main · Le site vous appartient</li>
+            </ul>
+          </div>
+
+          <!-- 2. SUIVI & OPTIMISATION -->
+          <div class="offer__card reveal">
+            <p class="offer__label">02 · Suivi &amp; Optimisation</p>
+            <p class="offer__price">35 € <span>/ mois</span></p>
+            <p class="offer__note">Sans engagement · Fortement conseillé les 2 premiers mois</p>
+            <ul>
+              <li>Bilan et ajustements continus les 2 premiers mois pour caler le site à 100 % sur votre activité</li>
+              <li>Modifications prises en charge sur simple message (carte de saison, visuels, horaires)</li>
+              <li>Veille technique, sécurité et suivi visibilité Google</li>
+              <li>
+                Libre d'arrêter à tout moment
+                <small class="offer__sub">Hors suivi : intervention ponctuelle facturée 50 € / demande</small>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 3. IDENTITÉ, PRINT & PHOTO -->
+          <div class="offer__card reveal">
+            <p class="offer__label">03 · Identité, Print &amp; Photo</p>
+            <p class="offer__price">dès 250 €</p>
+            <p class="offer__note">Prestations créatives ponctuelles à la carte</p>
+            <ul>
+              <li>
+                Création ou refonte de logo &amp; charte graphique
+                <small class="offer__sub">Logo seul dès 250 € · Identité complète dès 450 €</small>
+              </li>
+              <li>
+                Supports print &amp; édition
+                <small class="offer__sub">Menus, cartes de visite, flyers, devantures, catalogues (dès 120 €)</small>
+              </li>
+              <li>
+                Prise de vue photo dans votre établissement
+                <small class="offer__sub">Plats, produits, lieu et équipe retouchés (dès 180 €)</small>
+              </li>
+              <li>Visuels réseaux sociaux &amp; campagnes de lancement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section contact" id="contact">
+      <div class="section__head">
+        <h2 class="section__title">Contact</h2>
+      </div>
+      <div class="contact__grid">
+        <div>
+          <h2 class="contact__title reveal">Parlons de<br /><em>votre projet.</em></h2>
+          <p class="contact__text reveal">Basé à Strasbourg, je me déplace volontiers dans votre établissement pour échanger autour d'un thé.</p>
+          <a class="contact__mail reveal" href="mailto:contact@guillaumewalter.fr">contact@guillaumewalter.fr</a>
+        </div>
+
+        <form class="form reveal" name="contact" method="POST" action="/merci.html">
+          <label class="field"><span>Nom</span><input type="text" name="nom" required autocomplete="name" /></label>
+          <label class="field"><span>Email ou téléphone</span><input type="text" name="contact" required /></label>
+          <label class="field"><span>Votre projet</span><textarea name="message" rows="4" required></textarea></label>
+          <button type="submit" class="btn"><span>Envoyer le message</span> <i aria-hidden="true">→</i></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="monogram monogram--small">G<span>W</span></span>
+    <p>© <span id="year"></span> Guillaume Walter · Strasbourg</p>
+    <a href="mentions-legales.html">Mentions légales</a>
+  </footer>
+
+  <script src="main.js?v=14"></script>
+</body>
+</html>
